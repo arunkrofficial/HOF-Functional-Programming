@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #999;
+}
+div.container {
+	margin-top: 25vh;
+      border: 5px solid #00ffff;
+      padding: 20px 20px;
+	  background-color: #000;
+}
+ h1{
+	color: #00ffff;
+    text-align: center;
+    padding: 10px;
+}
+hr {
+
+   margin: 10px 0;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+div #input-block {
+    padding-top: 20px;
+}
+#input-block{
+    padding-top: 10px;
+	color: #00ffff;
+	font-size: 25px;
+}
+#input-block > #in-text{
+	padding: 8px 16px;
+    border-radius: 10px;
+
+	background-color: transparent;
+	border: 2px solid white;
+
+	color: #ffd700;
+	font-size: 20px;
+}
+#input-block > #in-text:focus{
+	outline: none;
+}
+
+div #btn-block {
+    padding-top: 20px;
+}
+#btn-block > #btn-submit{
+	padding: 10px 20px;
+	background-color: transparent;
+	border: 2px solid #41d3ff;
+	border-radius: 20px;
+	color: #00ffff;
+	font-size: 20px;
+	cursor: pointer;
+}
+#btn-block > #btn-submit:active{
+	transform: scale(1.05);
+}
+#output-block > #op-text{
+	/* margin-top: 20px; */
+	color: gold;
+	font-size: 20px;
+}
+div #output-block {
+	border: 1px solid #00ffff;
+	padding: 20px 120px;
+	
+}
